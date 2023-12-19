@@ -50,7 +50,7 @@
 **2、兼容redis运行:**  
 切换到redis/cmd中，运行cmd.exe  
 在终端使用命令：redis-cli -p 6380  
-![redis](images/redis/png)
+![redis](images/redis.png)
 ![发送post请求](images/post.png)
 ![发送get请求](images/get.png)
 <br>
