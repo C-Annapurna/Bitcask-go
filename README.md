@@ -47,14 +47,16 @@
 1、curl -X POST localhost:5208/bitcask/put -d '{"name1":"value1":"name2":"value2"}'  
 2、curl "localhost:5208/bitcask/get?key=name1"
 
-**2、兼容redis运行:**  
-切换到redis/cmd中，运行cmd.exe  
-在终端使用命令：redis-cli -p 6380  
-![redis](images/redis.png)
+
 ![发送post请求](images/post.png)
 ![发送get请求](images/get.png)
 <br>
 
+**2、兼容redis运行:**  
+切换到redis/cmd中，运行cmd.exe  
+在终端使用命令：redis-cli -p 6380  
+![redis](images/redis.png)
+<br>
 ****
 ### 基准测试:
 ![基准测试结果](images/benchmark_test.png)
